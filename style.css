@@ -30,7 +30,7 @@
 
 .bmain {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-image: url(../img/main.jpg);
+    background-image: url(main.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -46,7 +46,7 @@
 .C-sobre {
     display: flex;
     justify-content: space-around;
-    padding: 150px 0px;
+    padding: 150px;
     width: 100%;
     flex-wrap: wrap;
 
@@ -79,6 +79,43 @@
     font-family: "Varela Round", sans-serif;
 }
 
-@media screen and (max-width: 414px) {
-    
+@media screen and (max-width: 414px) {}
+
+.formação {
+    background-color: rgba(40, 34, 62, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/*background-color: rgba(40,34,62,255)*/
+
+.formtext h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.formtext h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: normal;
+    font-weight: bold;
+    color: white;
+}
+
+.formtext p {
+    margin-top: 25px;
+    font-family: "Varela Round", sans-serif;
+    color: white;
+}
+
+.imgform img {
+    width: 400px;
+    height: auto;
 }
