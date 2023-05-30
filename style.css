@@ -40,7 +40,14 @@
 .social a {
     padding: 10px;
     margin-top: 5px;
+    color: rgba(204, 102, 0,);
 }
+
+.maintext i {
+    color: rgba(204, 102, 0);
+
+}
+
 
 .C-sobre {
     display: flex;
@@ -78,7 +85,10 @@
     font-family: "Varela Round", sans-serif;
 }
 
-@media screen and (max-width: 414px) {}
+
+@media screen and (max-width: 800px) {
+    .Sobre-mim p {width: 100%;}
+}
 
 .formação {
     background-color: rgba(40, 34, 62, 255);
@@ -126,6 +136,10 @@
     width: 30px;
 }
 
-.htmlicon {
-    color: #32a852;
+.formação {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    width: 100%;
+    flex-wrap: wrap;
 }
