@@ -21,6 +21,8 @@
     }
 }
 
+/*Pagina 1*/
+
 .main {
     color: white;
     margin: 10%;
@@ -48,11 +50,13 @@
 
 }
 
+/*Pagina 2*/
+
 
 .C-sobre {
     display: flex;
     justify-content: space-around;
-    padding: 150px;
+    padding: 50px;
     width: 100%;
     flex-wrap: wrap;
 
@@ -63,6 +67,7 @@
     height: auto;
     box-shadow: 4px 4px 4px;
 }
+
 
 .Sobre-mim h1 {
     text-align: center;
@@ -90,6 +95,8 @@
     .Sobre-mim p {width: 100%;}
 }
 
+/*Pagina 3*/
+
 .formação {
     background-color: rgba(40, 34, 62, 255);
     display: flex;
@@ -99,28 +106,17 @@
     flex-wrap: wrap;
 }
 
-/*background-color: rgba(40,34,62,255)*/
-
 .formtext h1 {
     text-align: center;
     font-size: 55px;
     font-family: "Varela Round", sans-serif;
     font-weight: bold;
     color: white;
+    margin-bottom: 15%;
 }
-
-.formtext h4 {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: bold;
-    color: white;
-}
-
 
 .formtext p {
-    margin-top: 25px;
+    margin-top: 5px;
     font-family: "Varela Round", sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
@@ -136,7 +132,9 @@
     width: 30px;
 }
 
-.formação {
+/*Pagina 4*/
+
+.atuação {
     display: flex;
     justify-content: space-around;
     padding: 150px;
