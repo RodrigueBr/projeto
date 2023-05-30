@@ -47,11 +47,9 @@
 
 .maintext i {
     color: rgba(204, 102, 0);
-
 }
 
 /*Pagina 2*/
-
 
 .C-sobre {
     display: flex;
@@ -59,7 +57,6 @@
     padding: 50px;
     width: 100%;
     flex-wrap: wrap;
-
 }
 
 .foto img {
@@ -68,13 +65,11 @@
     box-shadow: 4px 4px 4px;
 }
 
-
 .Sobre-mim h1 {
     text-align: center;
     font-size: 55px;
     font-family: "Varela Round", sans-serif;
     font-weight: bold;
-
 }
 
 .Sobre-mim h4 {
@@ -90,7 +85,6 @@
     font-family: "Varela Round", sans-serif;
 }
 
-
 @media screen and (max-width: 800px) {
     .Sobre-mim p {width: 100%;}
 }
@@ -101,7 +95,7 @@
     background-color: rgba(40, 34, 62, 255);
     display: flex;
     justify-content: space-around;
-    padding: 150px;
+    padding: 100px;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -113,6 +107,7 @@
     font-weight: bold;
     color: white;
     margin-bottom: 15%;
+    text-decoration: underline;
 }
 
 .formtext p {
@@ -124,12 +119,8 @@
 }
 
 .imgform img {
-    width: 400px;
+    width: 430px;
     height: auto;
-}
-
-.formtext img {
-    width: 30px;
 }
 
 /*Pagina 4*/
@@ -137,7 +128,56 @@
 .atuação {
     display: flex;
     justify-content: space-around;
-    padding: 150px;
+    padding: 50px;
     width: 100%;
     flex-wrap: wrap;
+}
+
+.atuação img{
+    width: 430px;
+    height: auto;
+}
+
+.atuação h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+.atuação-txt h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.atuação p {
+    margin-top: 5px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/*Pagina 5*/
+
+.projetos {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.projetos h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-decoration: underline;
 }
